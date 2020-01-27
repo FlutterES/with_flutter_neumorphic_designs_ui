@@ -10,7 +10,7 @@ Bom, este conceito não é nada novo no mercado já vem sido utilizado inclusive
 
 O conceito do neomorfismo pra UI/UX consiste em se trabalhar as cores da interface de forma que exista uma ligação dos elementos visuais com a cor de fundo da tela de forma suave, e utilizando um jogo de sombras de forma a garantir um suave efeito de alto relevo porém sem aquela ideia de que o mesmo esta flutuando.
 
-Pelo que pude perceber o <b><i>"Neomorfismo"</i></b> veio aplicando uma série de técnicas no desenvolvimento de interfaces gerando assim este <b><i>"padrão Neomorpfico"</i></b> que inclui algumas regras ao se gerar a interfaces como:
+Pelo que pude perceber o <i>"Neomorfismo"</i> veio aplicando uma série de técnicas no desenvolvimento de interfaces gerando assim este <i>"padrão Neomorpfico"</i> que inclui algumas regras ao se gerar a interfaces como:
 
 * Sobras e formas suaves
 * Pouco contraste
