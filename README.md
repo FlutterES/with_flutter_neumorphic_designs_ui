@@ -16,7 +16,7 @@ ALguns dos padrões para uma interface Neomorfica:
 
 * Sobras e formas suaves
 * Pouco contraste
-* Shapes sem borda, ou com bordas imperceptíveis 
+* Shapes sem borda, ou com bordas praticamente imperceptíveis 
 * Suavização das cores
 * Utilização de cores semelhantes entre os elemento
 * Jogo de sombras, uma sobra apontada diagonal para baixo mais escura e uma mais clara para cima, bem como em alguns exemplos um efeito de degrade na forma em que estão aplicadas as sombras dando um efeito de que o elemento surge de baixo para cima na diagona.
