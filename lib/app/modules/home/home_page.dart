@@ -20,6 +20,9 @@ class _HomePageState extends State<HomePage> {
   // Color appCor = Color.fromARGB(255, 28, 28, 28);
   Color appCor = Color.fromARGB(255, 241, 242, 244);
 
+  Color fontColor = Colors.black;
+  Color fontColor2 = Colors.black;
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -39,14 +42,14 @@ class _HomePageState extends State<HomePage> {
                       color: appCor,
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: Icon(Icons.arrow_back),
+                        child: Icon(Icons.arrow_back, color: fontColor,),
                       ),
                     ),
                     NeoContainer(
                       color: appCor,
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: Icon(Icons.menu),
+                        child: Icon(Icons.menu, color: fontColor,),
                       ),
                     ),
                   ],
@@ -63,14 +66,15 @@ class _HomePageState extends State<HomePage> {
                       "Hi Zain,",
                       style: TextStyle(
                         fontSize: 22,
-                        fontWeight: FontWeight.bold
+                        fontWeight: FontWeight.bold, color: fontColor,
                       ),
                     ),
+                    Divider(),
                     Text(
                       "What would you like to have, we're offering some services",
                       style: TextStyle(
                         fontSize: 22,
-                        color: Color.fromARGB(255, 159, 159, 161)
+                        color: fontColor2
                       ),
                     )
                   ],
@@ -91,7 +95,7 @@ class _HomePageState extends State<HomePage> {
                     suffixIcon: Icon(Icons.search),
                     hintText: "Find your symptons",
                     hintStyle: TextStyle(
-                      color: Color.fromARGB(255, 159, 159, 161),
+                      color: fontColor2,
                       fontSize: 20
                     )
                   ),
@@ -112,14 +116,14 @@ class _HomePageState extends State<HomePage> {
                         child: Column(
                           children: <Widget>[
                             Expanded(
-                              child: Icon(Icons.people, size: 40,),
+                              child: Icon(Icons.people, size: 40, color: fontColor,),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(15.0),
                               child: Text(
                                 "Option",
                                 style: TextStyle(
-                                  fontSize: 20
+                                  fontSize: 20, color: fontColor,
                                 ),
                               ),
                             )
@@ -140,11 +144,11 @@ class _HomePageState extends State<HomePage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
-                        Icon(Icons.exit_to_app, size: 50,),
+                        Icon(Icons.exit_to_app, color: fontColor, size: 50,),
                         Text(
                           "Logout",
                           style: TextStyle(
-                            fontSize: 20
+                            fontSize: 20, color: fontColor,
                           ),
                         )
                       ],
